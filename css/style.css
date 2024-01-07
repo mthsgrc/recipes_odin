@@ -1,5 +1,5 @@
 :root {
-    --box-shadow-color: rgba(158, 89, 89, 0.6);
+  --box-shadow-color: rgba(158, 89, 89, 0.6);
 }
 
 * {
@@ -9,25 +9,28 @@
 
 .wrapper {
   align-items: center;
+  background-color: burlywood;
   display: grid;
   gap: 10px;
   grid-template-columns: 50vh 50vh;
   grid-template-rows: 50vh 50vh;
   justify-content: center;
-  background-color: burlywood;
 }
 
 .recipes-panel {
-  box-shadow: 2px 6px 11px 0px var(--box-shadow-color);
   background-color: coral;
   border: 5px solid antiquewhite;
+  box-shadow: 2px 6px 11px 0px var(--box-shadow-color);
   font-family: sans-serif;
   height: 45vh;
   /* padding-top: 45%; */
   text-align: center;
-  width: 45vh;
   -webkit-box-shadow: 2px 6px 11px 0px var(--box-shadow-color);
+  width: 45vh;
+  
 }
+
+.recipes-panel[]
 
 .wrapper > a:link {
   text-decoration: none;
